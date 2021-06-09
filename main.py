@@ -88,7 +88,7 @@ def run_alexa():
         talk("Stop saying that! I've never killed anyone's father")
     elif 'introduce yourself' in command:
         talk("Hello friend. My name is Buddy. And I can serve as your Personal Assistant")
-    elif 'high five' in command:
+    elif 'hi fi' in command:
         talk("I would, if I could, but I can't so I'll chant:1,2,3,4,5. Hahaha")
     elif 'best friend' in command:
         talk("Of course buddy with pleasure. So grateful to have you as my best friend")
