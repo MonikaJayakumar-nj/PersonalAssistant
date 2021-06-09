@@ -46,7 +46,7 @@ def run_alexa():
         talk("Here are the results ")
         for i in search(query):
             print(i)
-    elif 'time' in command:
+    elif 'time and date' in command:
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk('Current time is ' + time)
     elif 'who is' in command:
@@ -59,6 +59,11 @@ def run_alexa():
         details = wikipedia.summary(anything, 10)
         print(details)
         talk(details)
+    elif 'where is' in command:
+        place = command.replace('where is', '')
+        information = wikipedia.summary(place, 20)
+        print(information)
+        talk(information)    
     elif 'joke' in command:
         talk('Yes with pleasure')
         talk(pyjokes.get_joke())
