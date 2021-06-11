@@ -1,0 +1,12 @@
+
+
+#The following are all the Libraries required
+
+pyttsx3==2.90	
+pywhatkit==4.7
+wikipedia==1.4.0	
+pyjokes==0.6.0
+PyAudio==0.2.11
+SpeechRecognition==3.8.1
+googlesearch-python==2020.0.2
+DateTime==4.3
