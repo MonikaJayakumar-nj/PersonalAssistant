@@ -1,6 +1,6 @@
 
 
-#The following are all the Libraries required
+#The following are all the Libraries required to run the code
 
 pyttsx3==2.90	
 pywhatkit==4.7
