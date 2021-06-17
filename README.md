@@ -2,8 +2,8 @@
 
 It's a Personal Assistance named "BUDDY". 
 You can use Buddy for 
-1. You can play any YouTube video by invoking a word 'play'
-2. You can get search links for your queries by invoking a word 'search'
+1. You can play any YouTube video by invoking the word 'play'
+2. You can get search links for your queries by invoking the word 'search'
 3. You can get the current date and time by invoking the keyword 'time and date' 
 4. You can ask for jokes by invoking the keyword 'joke' 
 5. You can send a WhatsApp message with pre-scheduled time by invoking the keyword 'send WhatsApp message to' and providing some details 
